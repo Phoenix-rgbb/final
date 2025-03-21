@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<video autoplay muted loop id="bg-video">
+    <source src="videos/5.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div id="video-overlay"></div>
+<!-- Navbar -->
+<header class="navbar">
+    <div class="container">
+        <h1 class="logo">
+            <img src="images/unnamed.png" height="50px" width="50px" class="img-lef">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Portfolio</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Contact Section -->
+<div class="content-container">
+    <main class="contact-section animate-fade-in-up">
+        <h1 class="section-title">Get in Touch</h1>
+        <p class="contact-description">
+            Feel free to reach out to me for collaborations, projects, or just a friendly chat.
+            Fill out the form below or connect with me via email and social media.
+        </p>
+
+        <div class="contact-form-container">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> wayne.falc1260@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9172351738</p>
+
+            <div class="social-icons">
+                <a href="https://github.com/Phoenix-rgbb" target="_blank"><img src="images/github.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/wayne-falcao-945291330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/wayne_1260?igsh=dGppZWp1aWhoMm83" target="_blank"><img src="images/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+</body>
+</html>

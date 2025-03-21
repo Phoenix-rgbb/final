@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Playfair+Display:wght@400;900&family=Viaoda+Libre&display=swap');
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+    <source src="videos/1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div id="video-overlay"></div>
+
+    <header class="navbar">
+    <div class="container">
+        <h1 class="logo"> <img src="images/unnamed.png" height="10px" width="50px" class="img-lef" ></h1>
+        <nav> <h1>
+            <ul>
+                <li><a href="index.html" class="active">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Portfolio</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> </h1>
+    </div>
+</header>
+
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <h1 class="hero-title playfair-display">CREATING <br> DELIGHTFUL</h1>
+        <h1 class="hero-title">
+            <span class="italic hurricane-regular">experiences</span> <br> for your
+            <span class="bold text-white viaoda-libre-regular">business</span>
+        </h1>
+        <p class="hero-subtitle">UIUX & PRODUCT DESIGNER</p>
+    </section>
+
+    <!-- Main Content -->
+    <div class="content-container">
+        <main class="pt-20 p-6 text-black">
+            <section id="about" class="about-container">
+    <h2 class="text-4xl font-semibold text-white text-center">About Me</h2>
+    <div class="about-content">
+        <img src="images/self.jpg" alt="Self Image" class="about-img">
+        <p id="typewriter-text" class="about-text"></p>
+    </div>
+</section>
+
+ <br>
+
+            <section id="projects" class="my-12">
+                <h2 class="text-4xl font-semibold text-center text-white ">Expertise</h2>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+
+                    <div class="project-card bg-gray-900">
+                        <img src="images/aiml.webp" width="50" height="75" class="img-left"></img>
+                        <h3 class="text-2xl font-bold ">AIML</h3>  <br>
+                        <p class="text-gray-400 mt-2">Developing and applying ML algorithms in real-world applications.</p>
+                        <a href="#" class="text-blue-400 mt-4 inline-block hover:underline">View Project</a>
+                    </div>
+                    <div class="project-card bg-gray-900" style="animation-delay: 0.2s;">
+                        <img src="images/web.png" width="50" height="75" class="img-left"></img>
+                        <h3 class="text-2xl font-bold">Web Devlopment</h3>
+                        <p class="text-gray-400 mt-2">Expert-level website development with a focus on high quality.</p>
+                        <a href="#" class="text-blue-400 mt-4 inline-block hover:underline">View Project</a>
+                    </div>
+
+                    <div class="project-card bg-gray-900" style="animation-delay: 0.4s;">
+                        <img src="images/uiux.jpeg" width="50" height="75" class="img-left"></img>
+                        <h3 class="text-2xl font-bold">UIUX</h3> <br>
+                        <p class="text-gray-400 mt-2">Creating premium, high-end website designs.</p>
+                        <a href="#" class="text-blue-400 mt-4 inline-block hover:underline">View Project</a>
+                    </div>
+                    <div class="project-card bg-gray-900 " style="animation-delay: 0.4s;">
+                        <img src="images/photog.png" width="50" height="75" class="img-left"></img>
+                        <h3 class="text-2xl font-bold">Photography</h3><br>
+                        <p class="text-gray-400 mt-2">Capturing stunning moments through photography and astrophotography.</p>
+                        <a href="#" class="text-blue-400 mt-4 inline-block hover:underline">View Project</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Clients Section -->
+            <section id="clients" class="clients-section">
+                <h2 class="text-4xl font-semibold text-center text-white">Clients</h2>
+                <div class="clients-logos ">
+                    <img src="images/boat.png" alt="Client 1" class="bg-white">
+                    <img src="images/cred.png" alt="Client 2"class="bg-white">
+                    <img src="images/delh.png" alt="Client 3"class="bg-white">
+                    <img src="images/ola.svg" alt="Client 4" class="bg-white">
+                </div>
+                <div class="progress-bar"></div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-900 shadow-md py-6 text-center animate-fade-in-up">
+            <p class="text-gray-400">&copy; 2025 My Portfolio | Designed with ❤️</p>
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

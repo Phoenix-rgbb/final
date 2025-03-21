@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="video-overlay"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/unnamed.png" alt="Logo" height="50">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content-container">
+        <main class="portfolio-section animate-fade-in-up">
+            <h1 class="section-title">Portfolio</h1>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/hands.jpg" class="project-image" alt="Hand Signs Recognizer">
+                    <h2>Hand Signs Recognizer</h2>
+                    <p>This project uses MediaPipe Hands and OpenCV to recognize hand gestures in real-time. The system detects and tracks hand landmarks using MediaPipe, processes the hand position, and classifies gestures based on predefined signs. OpenCV handles image processing, while a machine learning model or rule-based logic interprets the signs. This can be used for applications like sign language recognition, touchless controls, and interactive interfaces.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/project2.jpg" class="project-image" alt="Project 2">
+                    <h2>Project Title 2</h2>
+                    <p>Brief description of the project goes here.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/project3.jpg" class="project-image" alt="Project 3">
+                    <h2>Project Title 3</h2>
+                    <p>Brief description of the project goes here.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/project4.jpg" class="project-image" alt="Project 4">
+                    <h2>Project Title 4</h2>
+                    <p>Brief description of the project goes here.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>

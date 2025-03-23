@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     animateBalls();
 });
 document.addEventListener("DOMContentLoaded", function () {
-    const text = ` I specialize in crafting seamless, interactive, and visually stunning user experiences, focusing on building responsive, efficient, and scalable frontend solutions that power web applications. I thrive on the challenge of optimizing performance, writing clean, maintainable code, and designing intuitive interfaces that enhance user engagement. For me, great frontend development goes beyond aesthetics—its about creating solutions that are accessible, scalable, and user-friendly. I take pride in building dynamic and efficient interfaces that not only deliver smooth interactions but also ensure long-term usability and performance.`;
+    const text = `Hello I'm Wayne. I specialize in crafting seamless, interactive, and visually stunning user experiences, focusing on building responsive, efficient, and scalable frontend solutions that power web applications. I thrive on the challenge of optimizing performance, writing clean, maintainable code, and designing intuitive interfaces that enhance user engagement. For me, great frontend development goes beyond aesthetics—its about creating solutions that are accessible, scalable, and user-friendly. I take pride in building dynamic and efficient interfaces that not only deliver smooth interactions but also ensure long-term usability and performance.`;
 
     let i = 0;
     const speed = 15; // Speed of typing effect
